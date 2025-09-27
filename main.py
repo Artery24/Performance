@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Python CLI script to permanently delete all files in Adobe CameraRaw Cache2 folder.
-Features:
-1. Deletes files permanently (os.remove()), not to Recycle Bin:contentReference[oaicite:7]{index=7}.
-2. Interactive CLI with confirmation prompt (Rich Confirm):contentReference[oaicite:8]{index=8}.
-3. Uses Rich Progress for fancy output:contentReference[oaicite:9]{index=9}.
-4. Logs deleted files to a log file (overwrite mode) in script directory:contentReference[oaicite:10]{index=10}.
-5. Normalizes and validates path to ensure it's inside Cache2 directory.
-6. Ready for PyInstaller (one-dir) deployment.
-"""
 import os
 import sys
 import logging
@@ -139,4 +129,5 @@ def main():
     console.print(table)
 
 if __name__ == "__main__":
+
     main()

@@ -1,12 +1,12 @@
-# Adobe_Photoshop_Purge_CCR_2025
+# Adobe Photoshop Purge CCR 2025
 ได้รับการพัฒนาเพื่อให้ง่ายต่อการทำความสะอาดไฟล์ขยะที่สะสมใน Adobe Photoshop 2025
 ----------
-Python CLI script to permanently delete all files in Adobe CameraRaw Cache2 folder
+สคริปต์ Python CLI สำหรับลบไฟล์ทั้งหมดในโฟลเดอร์ Adobe CameraRaw Cache2 อย่างถาวร
 
-Features:
-1. Deletes files permanently (os.remove()), not to Recycle
-2. Interactive CLI with confirmation prompt (Rich Confirm)
-3. Uses Rich Progress for fancy output
-4. Logs deleted files to a log file (overwrite mode) in script directory
-5. Normalizes and validates path to ensure it's inside Cache2 directory
-6. Ready for PyInstaller (one-dir) deployment
+คุณสมบัติ:
+ลบไฟล์แคชขยะสะสมของ Photoshop 2025
+CLI แบบอินเทอร์แอคทีฟ
+Progress สำหรับผลลัพธ์
+บันทึกข้อผิดพลาด log
+ตรวจสอบความถูกต้องของเส้นทาง Cache2
+พร้อมสำหรับการใช้งาน

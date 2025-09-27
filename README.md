@@ -1,5 +1,5 @@
 # Adobe_Photoshop_Purge_CCR_2025
-It was developed to make it easier to clean up accumulated junk files in Adobe Photoshop 2025
+ได้รับการพัฒนาเพื่อให้ง่ายต่อการทำความสะอาดไฟล์ขยะที่สะสมใน Adobe Photoshop 2025
 ----------
 Python CLI script to permanently delete all files in Adobe CameraRaw Cache2 folder
 
